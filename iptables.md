@@ -1,7 +1,7 @@
 [TOC]
 iptables 流向图
 
-```mermaid
+{% mermaid %}
 graph LR
 	NETWORK --> prerouting(RPEROUTING)
 	prerouting --raw mangle nat--> route(route)
@@ -12,7 +12,7 @@ graph LR
 	route --> forward(forward)
 	forward --mangle filter--> postrouting
 	postrouting --mangle nat--> NETWORK2(NETWORK)
-```
+{% endmermaid %}
 
 ```
                                   netfilter hooks
