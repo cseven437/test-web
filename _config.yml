@@ -1,2 +1,4 @@
 plugins:
   - jekyll-sitemap
+
+gems: [jekyll-mermaid]
