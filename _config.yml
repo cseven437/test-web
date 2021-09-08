@@ -1,7 +1,7 @@
-plugins:
-  - jekyll-sitemap
+# plugins:
+#   - jekyll-sitemap
 
 markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
+# kramdown:
+#   input: GFM
+#   syntax_highlighter: rouge
